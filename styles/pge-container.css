@@ -1,0 +1,22 @@
+/* page container */
+.page-container {
+    display: flex;
+    justify-content: center;
+
+}
+
+.page-container > .content-wrapper {
+    width: 1000px;
+}
+
+.page-container > .content-wrapper #cheff {
+    width: 350px;
+    margin: 25px 30px 30px 0px;
+    float: left;
+    border: 1px solid skyblue;
+}
+
+.page-container > .content-wrapper p {
+    letter-spacing: 1px;
+    line-height: 30px;
+}

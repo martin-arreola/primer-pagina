@@ -1,0 +1,33 @@
+.martin a {
+
+    color: rgb(0, 255, 115);
+}
+
+.martin  > .bottones{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 42px;
+    width: 500p;
+    text-align: center;
+}
+.martin {
+    display: flex;      
+    justify-content: space-between;
+    align-items: center;
+}       
+.martin >  .botones a {
+    font-family: "Ubuntu Condensed" , sans-serif;
+    color: darkblue;
+    text-decoration: none;
+    transition: 0.3s;
+    justify-content: space-between;
+}
+.martin >  .botones a:hover { 
+    color: red;
+    letter-spacing: 2px;
+    transition: 0.8s;
+}   
+.martin >  .botones a { 
+    width: 70px;
+    text-align: center ;
+}
